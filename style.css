@@ -1,25 +1,27 @@
 .block1 {
 	position: relative;
-	width: 100%;
+	width: auto;
 	height: 100px;
 	background: black;
 	color: white;
-	margin: 0 auto;
+	margin: -8px;
 }
 .block2 {
 	position: relative;
-	width: 100%;
+	width: auto%;
 	height: 1200px;
 	background: grey;
-	margin-top: -20px;
+	margin: -8px;
+	margin-top: -12px;
 	color: white;
 }
 .block3 {
 	position: relative;
-	width: 100%;
+	width: auto%;
 	height: 300px;
 	background: black;
-	margin-top: -20px;
+	margin: -8px;
+	margin-top: -12px;
 }
 .pic{
 	position: absolute;
@@ -38,4 +40,39 @@
 	margin-left: 100px;
  
    }
+a:link {
+	color: white;
+	background-color: transparent;
+    text-decoration: none;
+}
 
+.LesGuitar{
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 350px;
+	height: 1020px;
+	background: white;
+	word-wrap: break-word;
+	color: black;
+}
+.StratGuitar{
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	width: 350px;
+	height: 1020px;
+	background: white;	
+	word-wrap: break-word;
+	color: black;
+}
+.TeleGuitar{
+	position: absolute;
+	top: 100px;	
+	left:900px;
+	width: 350px;
+	height: 1020px;
+	background: white;	
+	word-wrap: break-word;
+	color: black;
+}
