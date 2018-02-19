@@ -22,6 +22,7 @@
 	background: black;
 	margin: -8px;
 	margin-top: -12px;
+	color: white;
 }
 .pic{
 	position: absolute;
@@ -44,6 +45,9 @@ a:link {
 	color: white;
 	background-color: transparent;
     text-decoration: none;
+}
+a:visited{
+	color: white;
 }
 
 .LesGuitar{
@@ -75,4 +79,9 @@ a:link {
 	background: white;	
 	word-wrap: break-word;
 	color: black;
+}
+.contact{
+	position: absolute;
+	top: 50px;
+	left: 45%;
 }
